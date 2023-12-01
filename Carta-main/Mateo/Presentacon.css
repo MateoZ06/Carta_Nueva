@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #efefef ;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 5px;
+}
+.card.head {
+    height: 125px;
+    width: 100px;
+    position: relative;
+}
+
+.card.head.circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #0b6f72;
+    bottom: 0;
+}
+
+.card.head.img {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+}
